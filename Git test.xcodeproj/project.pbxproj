@@ -54,8 +54,8 @@
 		806F223819412C5100D46906 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		806F223A19412C5100D46906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		806F223C19412C5100D46906 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
-		806F224619412FA300D46906 /* RRLGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRLGTest.h; sourceTree = "<group>"; };
-		806F224719412FA300D46906 /* RRLGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRLGTest.m; sourceTree = "<group>"; };
+		806F224619412FA300D46906 /* RRLGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRLGTest.h; path = ../RRLGTest.h; sourceTree = "<group>"; };
+		806F224719412FA300D46906 /* RRLGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRLGTest.m; path = ../RRLGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		806F220519412C5100D46906 = {
 			isa = PBXGroup;
 			children = (
-				806F224619412FA300D46906 /* RRLGTest.h */,
-				806F224719412FA300D46906 /* RRLGTest.m */,
 				806F221719412C5100D46906 /* Git test */,
 				806F223619412C5100D46906 /* Git testTests */,
 				806F221019412C5100D46906 /* Frameworks */,
@@ -117,6 +115,8 @@
 		806F221719412C5100D46906 /* Git test */ = {
 			isa = PBXGroup;
 			children = (
+				806F224619412FA300D46906 /* RRLGTest.h */,
+				806F224719412FA300D46906 /* RRLGTest.m */,
 				806F222019412C5100D46906 /* RRLGAppDelegate.h */,
 				806F222119412C5100D46906 /* RRLGAppDelegate.m */,
 				806F222319412C5100D46906 /* Main.storyboard */,
