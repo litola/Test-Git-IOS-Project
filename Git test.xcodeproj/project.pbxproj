@@ -21,6 +21,7 @@
 		806F223319412C5100D46906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806F221519412C5100D46906 /* UIKit.framework */; };
 		806F223B19412C5100D46906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806F223919412C5100D46906 /* InfoPlist.strings */; };
 		806F223D19412C5100D46906 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F223C19412C5100D46906 /* Git_testTests.m */; };
+		806F224819412FA300D46906 /* RRLGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F224719412FA300D46906 /* RRLGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		806F223819412C5100D46906 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		806F223A19412C5100D46906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		806F223C19412C5100D46906 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		806F224619412FA300D46906 /* RRLGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRLGTest.h; sourceTree = "<group>"; };
+		806F224719412FA300D46906 /* RRLGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRLGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		806F220519412C5100D46906 = {
 			isa = PBXGroup;
 			children = (
+				806F224619412FA300D46906 /* RRLGTest.h */,
+				806F224719412FA300D46906 /* RRLGTest.m */,
 				806F221719412C5100D46906 /* Git test */,
 				806F223619412C5100D46906 /* Git testTests */,
 				806F221019412C5100D46906 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806F224819412FA300D46906 /* RRLGTest.m in Sources */,
 				806F221E19412C5100D46906 /* main.m in Sources */,
 				806F222219412C5100D46906 /* RRLGAppDelegate.m in Sources */,
 				806F222819412C5100D46906 /* RRLGViewController.m in Sources */,
